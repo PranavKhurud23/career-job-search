@@ -1,0 +1,5 @@
+streamlit>=1.38.0
+google-cloud-pubsub>=2.18.4
+pypdf>=4.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.3

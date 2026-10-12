@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  pubsub-emulator:
+    image: google/cloud-sdk:latest
+    container_name: local-pubsub-emulator
+    ports:
+      - "8085:8085"
+    command: gcloud beta emulators pubsub start --host-port=0.0.0.0:8085
+    environment:
+      - CLOUDSDK_CORE_PROJECT=local-career-copilot

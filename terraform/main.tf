@@ -1,11 +1,11 @@
 module "vpc" {
     source = "./modules/VPC"
-    project_id = "8237"
+    project_id = "project-3abb875e-b867-4aaf-843"
 }
 
 module "iam" {
     source = "./modules/IAM"
-    project_id = "8237"
+    project_id = "project-3abb875e-b867-4aaf-843"
 }
 
 module "gke" {

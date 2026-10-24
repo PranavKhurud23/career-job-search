@@ -15,3 +15,7 @@ variable region {
     default = "asia-south1"
     description = "Region"
 }
+variable service_account {
+    type =  string 
+    description = "IAM SA for Node"
+}
